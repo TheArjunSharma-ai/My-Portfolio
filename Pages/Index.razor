@@ -1,0 +1,21 @@
+@page "/"
+
+<PageTitle>Profile</PageTitle>
+
+<h1>Hi, I'm @Name</h1>
+
+<p>@Description</p>
+
+<p><strong>📍 Based in:</strong> @Location</p>
+<p><strong>📧 Email:</strong> <a href="mailto:@Email">@Email</a></p>
+<p><strong>🔗 GitHub:</strong> <a href="https://github.com/@GitHubUsername" target="_blank">@GitHubUsername</a></p>
+<p><strong>🔗 LinkedIn:</strong> <a href="https://linkedin.com/in/@LinkedInUsername" target="_blank">@LinkedInUsername</a></p>
+
+@code {
+    private string Name = "Arjun Sharma";
+    private string Description = "I'm a passionate and solution-oriented Full Stack .NET Developer with [4+] years of experience building scalable web applications using C#, .NET Core, ASP.NET MVC/Web API, and modern front-end frameworks like Angular and React. I specialize in building enterprise-grade web solutions using Microsoft technologies, with a strong grasp on backend logic, API development, database design, and intuitive UIs.";
+    private string Location = "Noida (NCR), India";
+    private string Email = "as506347@gmail.com";
+    private string GitHubUsername = "thearjunsharma-ai";
+    private string LinkedInUsername = "arjun-sharma-69aa87175";
+}

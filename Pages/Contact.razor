@@ -1,0 +1,34 @@
+@page "/contact"
+<h2>Contact</h2>
+
+<EditForm Model="formModel" OnValidSubmit="HandleValidSubmit">
+    <InputText @bind-Value="formModel.Name" placeholder="Your Name" />
+    <InputText @bind-Value="formModel.Email" placeholder="Your Email" />
+    <InputTextArea @bind-Value="formModel.Message" placeholder="Your Message" />
+    <button type="submit">Send</button>
+</EditForm>
+
+
+<PageTitle>Contact</PageTitle>
+
+<h1>Contact Information</h1>
+
+<p><strong>📧 Email:</strong> <a href="mailto:you@example.com">you@example.com</a></p>
+<p><strong>📞 Phone:</strong> +123 456 7890</p>
+<p><strong>🌐 Portfolio:</strong> <a href="https://yourname.dev" target="_blank">yourname.dev</a></p>
+
+@code {
+    private ContactFormModel formModel = new();
+
+    private void HandleValidSubmit()
+    {
+        // Handle message send logic
+    }
+
+    public class ContactFormModel
+    {
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Message { get; set; }
+    }
+}
