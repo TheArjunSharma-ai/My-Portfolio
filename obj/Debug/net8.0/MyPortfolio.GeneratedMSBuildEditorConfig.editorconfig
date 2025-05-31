@@ -1,0 +1,67 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = MyPortfolio
+build_property.RootNamespace = MyPortfolio
+build_property.ProjectDir = /workspaces/My-Portfolio/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /workspaces/My-Portfolio
+build_property._RazorSourceGeneratorDebug = 
+
+[/workspaces/My-Portfolio/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/My-Portfolio/Pages/Certificate.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2VydGlmaWNhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/My-Portfolio/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/My-Portfolio/Pages/Experience.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXhwZXJpZW5jZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/My-Portfolio/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/My-Portfolio/Pages/Projects.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvamVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/My-Portfolio/Pages/Resume.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVzdW1lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/My-Portfolio/Pages/Skills.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2tpbGxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/My-Portfolio/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/My-Portfolio/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-v5e7apnfn7
+
+[/workspaces/My-Portfolio/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-spr4vqi75e
