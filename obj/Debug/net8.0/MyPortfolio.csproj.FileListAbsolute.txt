@@ -2066,6 +2066,6 @@ C:\WX\Projects\My-Portfolio\obj\Debug\net8.0\MyPortfolio.dll
 C:\WX\Projects\My-Portfolio\obj\Debug\net8.0\refint\MyPortfolio.dll
 C:\WX\Projects\My-Portfolio\obj\Debug\net8.0\MyPortfolio.pdb
 C:\WX\Projects\My-Portfolio\obj\Debug\net8.0\ref\MyPortfolio.dll
-C:\WX\Projects\My-Portfolio\obj\Debug\net8.0\compressed\ofcb6obdhl-{0}-ohfat89qqh-ohfat89qqh.gz
-C:\WX\Projects\My-Portfolio\obj\Debug\net8.0\compressed\iiswno1fun-{0}-95mb2zjmk7-95mb2zjmk7.gz
-C:\WX\Projects\My-Portfolio\obj\Debug\net8.0\compressed\m1fpiixya9-{0}-giii5qfuts-giii5qfuts.gz
+C:\WX\Projects\My-Portfolio\obj\Debug\net8.0\compressed\ofcb6obdhl-{0}-3p9i9gb4g8-3p9i9gb4g8.gz
+C:\WX\Projects\My-Portfolio\obj\Debug\net8.0\compressed\iiswno1fun-{0}-k7tj9inagi-k7tj9inagi.gz
+C:\WX\Projects\My-Portfolio\obj\Debug\net8.0\compressed\m1fpiixya9-{0}-l2cafat0i0-l2cafat0i0.gz

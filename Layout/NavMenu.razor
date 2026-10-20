@@ -1,5 +1,7 @@
+@inject IJSRuntime JS
+
 <header class="site-header">
-    <a class="brand" href="/" aria-label="Arjun Sharma, home">AS<span>.</span></a>
+    <a class="brand" href="/" aria-label="Arjun Sharma, home"><img src="images/logo.jpg" alt="" width="36" height="36" />Arjun Sharma</a>
     <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="@(collapseNavMenu ? "false" : "true")" aria-controls="main-navigation" @onclick="ToggleNavMenu">
         <span></span><span></span><span></span>
     </button>
@@ -13,10 +15,29 @@
         <NavLink href="/resume" @onclick="CloseNavMenu">Resume</NavLink>
         <NavLink class="nav-contact" href="/contact" @onclick="CloseNavMenu">Contact</NavLink>
     </nav>
+    <button class="theme-toggle" type="button" aria-label="@(isDark ? "Switch to light theme" : "Switch to dark theme")" title="@(isDark ? "Switch to light theme" : "Switch to dark theme")" @onclick="ToggleTheme">
+        <svg class="theme-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.9 13.1A9 9 0 0 1 10.9 3.1 9 9 0 1 0 20.9 13.1Z" /></svg>
+        <svg class="theme-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4 19 5" /></svg>
+    </button>
 </header>
 
 @code {
     private bool collapseNavMenu = true;
+    private bool isDark;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            isDark = await JS.InvokeAsync<bool>("portfolioTheme.isDark");
+            StateHasChanged();
+        }
+    }
+
+    private async Task ToggleTheme()
+    {
+        isDark = await JS.InvokeAsync<bool>("portfolioTheme.toggle");
+    }
 
     private string NavMenuCssClass => collapseNavMenu ? "nav-links collapsed" : "nav-links";
 

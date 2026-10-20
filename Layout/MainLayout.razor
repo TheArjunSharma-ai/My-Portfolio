@@ -1,9 +1,12 @@
 @inherits LayoutComponentBase
+@implements IAsyncDisposable
+@inject IJSRuntime JS
+@inject NavigationManager Navigation
 
 <div class="site-shell">
     <NavMenu />
     <main class="main-content">
-        <article class="content-wrap">
+        <article class="content-wrap @(IsHome ? "home-content" : null)">
             @Body
         </article>
     </main>
@@ -12,3 +15,42 @@
         <span>Built with .NET and Blazor WebAssembly</span>
     </footer>
 </div>
+
+@code {
+    private bool IsHome => new Uri(Navigation.Uri).AbsolutePath == new Uri(Navigation.BaseUri).AbsolutePath;
+
+    private IJSObjectReference? scrollNavigation;
+    private DotNetObjectReference<MainLayout>? layoutReference;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            scrollNavigation = await JS.InvokeAsync<IJSObjectReference>("import", "./js/scroll-navigation.js");
+            layoutReference = DotNetObjectReference.Create(this);
+            await scrollNavigation.InvokeVoidAsync("initialize", layoutReference);
+        }
+
+        if (scrollNavigation is not null)
+        {
+            await scrollNavigation.InvokeVoidAsync("sync");
+        }
+    }
+
+    [JSInvokable]
+    public void NavigateOnScroll(string route)
+    {
+        Navigation.NavigateTo(route);
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (scrollNavigation is not null)
+        {
+            await scrollNavigation.InvokeVoidAsync("dispose");
+            await scrollNavigation.DisposeAsync();
+        }
+
+        layoutReference?.Dispose();
+    }
+}
