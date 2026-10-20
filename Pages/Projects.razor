@@ -1,60 +1,75 @@
 @page "/projects"
-<h2>Projects</h2>
 
-<PageTitle>Projects</PageTitle>
+<PageTitle>Projects | Arjun Sharma</PageTitle>
 
-<h3>Project 1: Inventory Management System</h3>
-<p><strong>Tech Stack:</strong> ASP.NET Core API, Angular 15, SQL Server, Entity Framework Core, JWT Auth</p>
-<ul>
-    <li>Built REST APIs to handle CRUD operations for products, categories, and stock tracking</li>
-    <li>Developed a responsive Angular frontend with role-based login</li>
-    <li>Integrated JWT for secure authentication and authorization</li>
-    <li>Deployed on Azure App Service using CI/CD pipelines</li>
-</ul>
-<p>🔗 <a href="https://github.com/yourusername/inventory-management-system" target="_blank">GitHub Repo</a></p>
-<p>🔗 <a href="https://inventory-management-system-demo.com" target="_blank">Live Demo</a></p>
+<section class="page-intro">
+    <p class="eyebrow">SELECTED WORK</p>
+    <h1>Projects and contributions</h1>
+    <p>A mix of a public developer tool and application work drawn from my professional experience.</p>
+</section>
 
-<h2>Project 2: E-Commerce Platform</h2>
-<p><strong>Tech Stack:</strong> ASP.NET MVC 5, Razor Pages, jQuery, SQL Server, Bootstrap</p>
-<ul>
-    <li>Implemented user registration, shopping cart, product browsing, and admin panel</li>
-    <li>Optimized SQL queries and used Stored Procedures for data-intensive operations</li>
-    <li>Integrated Stripe for secure payment processing</li>
-</ul>
-<p>🔗 <a href="https://github.com/yourusername/e-commerce-platform" target="_blank">GitHub Repo</a></p>
-<p>🔗 <a href="https://e-commerce-platform-demo.com" target="_blank">Live Demo</a></p>
+<div class="project-list">
+    <article class="project-card">
+        <div class="project-card-heading">
+            <div>
+                <p class="card-kicker">C# · DEVELOPER LIBRARY</p>
+                <h2>TheArjunSharma.DraganQR</h2>
+            </div>
+            <span class="project-number">01</span>
+        </div>
+        <p>
+            A QR-code-generation library developed in C# and published on NuGet. The implementation
+            includes QR encoding utilities and work around version handling and error-correction concepts.
+        </p>
+        <ul class="technology-list">
+            <li>C#</li>
+            <li>.NET</li>
+            <li>NuGet</li>
+        </ul>
+        <a class="inline-link" href="https://www.nuget.org/packages/TheArjunSharma.DraganQR/" target="_blank" rel="noopener">
+            View package on NuGet <span aria-hidden="true">↗</span>
+        </a>
+    </article>
 
-<h2>Project 3: Task Management API (Microservices)</h2>
-<p><strong>Tech Stack:</strong> .NET 6, Web API, Docker, RabbitMQ, MongoDB</p>
-<ul>
-    <li>Microservice-based API using DDD and CQRS</li>
-    <li>Used RabbitMQ for asynchronous messaging</li>
-    <li>Implemented containerization using Docker Compose</li>
-</ul>
-<p>🔗 <a href="https://github.com/yourusername/task-management-api" target="_blank">GitHub Repo</a></p>
-<p>🔗 <a href="https://task-management-api-demo.com" target="_blank">Live Demo</a></p>
-<p>🔗 <a href="https://task-management-api-architecture.com" target="_blank">Architecture Diagram</a></p>
+    <article class="project-card">
+        <div class="project-card-heading">
+            <div>
+                <p class="card-kicker">PROFESSIONAL APPLICATION WORK</p>
+                <h2>Dynamic forms and configurable workflows</h2>
+            </div>
+            <span class="project-number">02</span>
+        </div>
+        <p>
+            Contributed to application features including JSON-driven dynamic forms, configurable
+            statuses, UI improvements, and unit tests. Details are kept high-level to respect
+            confidentiality around employer and client systems.
+        </p>
+        <ul class="technology-list">
+            <li>.NET</li>
+            <li>C#</li>
+            <li>JSON</li>
+            <li>JavaScript</li>
+            <li>SQL Server</li>
+        </ul>
+    </article>
 
-@foreach (var project in ProjectList)
-{
-    <div>
-        <h3>@project.Title</h3>
-        <p>@project.Description</p>
-        <a href="@project.Link">View</a>
-    </div>
-}
-
-@code {
-    public class Project
-    {
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public string Link { get; set; }
-    }
-
-    List<Project> ProjectList = new()
-    {
-        new Project { Title = "Project One", Description = "Blazor project example.", Link = "https://github.com/" }
-    };
-}
-
+    <article class="project-card">
+        <div class="project-card-heading">
+            <div>
+                <p class="card-kicker">BACKEND DEVELOPMENT</p>
+                <h2>REST APIs and database integration</h2>
+            </div>
+            <span class="project-number">03</span>
+        </div>
+        <p>
+            Experience maintaining .NET REST APIs and connecting backend services with SQL Server,
+            including service-based execution of stored procedures.
+        </p>
+        <ul class="technology-list">
+            <li>.NET 8</li>
+            <li>ASP.NET</li>
+            <li>REST APIs</li>
+            <li>SQL Server</li>
+        </ul>
+    </article>
+</div>

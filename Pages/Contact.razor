@@ -1,34 +1,16 @@
 @page "/contact"
-<h2>Contact</h2>
-
-<EditForm Model="formModel" OnValidSubmit="HandleValidSubmit">
-    <InputText @bind-Value="formModel.Name" placeholder="Your Name" />
-    <InputText @bind-Value="formModel.Email" placeholder="Your Email" />
-    <InputTextArea @bind-Value="formModel.Message" placeholder="Your Message" />
-    <button type="submit">Send</button>
-</EditForm>
-
 
 <PageTitle>Contact</PageTitle>
 
-<h1>Contact Information</h1>
+<section class="page-intro">
+    <p class="eyebrow">GET IN TOUCH</p>
+    <h1>Let's connect</h1>
+    <p>For professional opportunities and development discussions, reach out through email or connect on LinkedIn.</p>
+</section>
 
-<p><strong>📧 Email:</strong> <a href="mailto:you@example.com">you@example.com</a></p>
-<p><strong>📞 Phone:</strong> +123 456 7890</p>
-<p><strong>🌐 Portfolio:</strong> <a href="https://yourname.dev" target="_blank">yourname.dev</a></p>
-
-@code {
-    private ContactFormModel formModel = new();
-
-    private void HandleValidSubmit()
-    {
-        // Handle message send logic
-    }
-
-    public class ContactFormModel
-    {
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string Message { get; set; }
-    }
-}
+<div class="contact-card">
+    <p><span class="contact-label">Email</span><a href="mailto:as506347@gmail.com">as506347@gmail.com</a></p>
+    <p><span class="contact-label">LinkedIn</span><a href="https://linkedin.com/in/arjun-sharma-69aa87175" target="_blank" rel="noopener">linkedin.com/in/arjun-sharma-69aa87175 <span aria-hidden="true">↗</span></a></p>
+    <p><span class="contact-label">GitHub</span><a href="https://github.com/Arjun-15" target="_blank" rel="noopener">github.com/Arjun-15 <span aria-hidden="true">↗</span></a></p>
+    <p><span class="contact-label">Location</span><span>Noida, Uttar Pradesh, India</span></p>
+</div>

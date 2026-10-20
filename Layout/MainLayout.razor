@@ -1,16 +1,14 @@
 @inherits LayoutComponentBase
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
-
-        <article class="content px-4">
+<div class="site-shell">
+    <NavMenu />
+    <main class="main-content">
+        <article class="content-wrap">
             @Body
         </article>
     </main>
+    <footer class="site-footer">
+        <span>© @DateTime.Now.Year Arjun Sharma</span>
+        <span>Built with .NET and Blazor WebAssembly</span>
+    </footer>
 </div>

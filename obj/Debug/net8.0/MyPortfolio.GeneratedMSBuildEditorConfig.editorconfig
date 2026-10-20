@@ -4,64 +4,73 @@ build_property.EnableSingleFileAnalyzer =
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net8.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v8.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = MyPortfolio
 build_property.RootNamespace = MyPortfolio
-build_property.ProjectDir = /workspaces/My-Portfolio/
+build_property.ProjectDir = C:\WX\Projects\My-Portfolio\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /workspaces/My-Portfolio
+build_property.MSBuildProjectDirectory = C:\WX\Projects\My-Portfolio
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[/workspaces/My-Portfolio/App.razor]
+[C:/WX/Projects/My-Portfolio/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/My-Portfolio/Pages/Certificate.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2VydGlmaWNhdGUucmF6b3I=
+[C:/WX/Projects/My-Portfolio/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/My-Portfolio/Pages/Contact.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdC5yYXpvcg==
+[C:/WX/Projects/My-Portfolio/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/My-Portfolio/Pages/Experience.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXhwZXJpZW5jZS5yYXpvcg==
+[C:/WX/Projects/My-Portfolio/Pages/Experience.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhwZXJpZW5jZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/My-Portfolio/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+[C:/WX/Projects/My-Portfolio/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/My-Portfolio/Pages/Projects.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvamVjdHMucmF6b3I=
+[C:/WX/Projects/My-Portfolio/Pages/Projects.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/My-Portfolio/Pages/Resume.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVzdW1lLnJhem9y
+[C:/WX/Projects/My-Portfolio/Pages/Resume.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdW1lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/My-Portfolio/Pages/Skills.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2tpbGxzLnJhem9y
+[C:/WX/Projects/My-Portfolio/Pages/Services.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/My-Portfolio/_Imports.razor]
+[C:/WX/Projects/My-Portfolio/Pages/Skills.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2tpbGxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WX/Projects/My-Portfolio/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/My-Portfolio/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-v5e7apnfn7
+[C:/WX/Projects/My-Portfolio/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-agupx8yfi6
 
-[/workspaces/My-Portfolio/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-spr4vqi75e
+[C:/WX/Projects/My-Portfolio/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ttxvcnl5y1
