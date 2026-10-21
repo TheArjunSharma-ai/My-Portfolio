@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WX\\Projects\\My-Portfolio\\MyPortfolio.csproj": {}
+    "c:\\WX\\Projects\\My-Portfolio\\MyPortfolio.csproj": {}
   },
   "projects": {
-    "C:\\WX\\Projects\\My-Portfolio\\MyPortfolio.csproj": {
+    "c:\\WX\\Projects\\My-Portfolio\\MyPortfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WX\\Projects\\My-Portfolio\\MyPortfolio.csproj",
+        "projectUniqueName": "c:\\WX\\Projects\\My-Portfolio\\MyPortfolio.csproj",
         "projectName": "MyPortfolio",
-        "projectPath": "C:\\WX\\Projects\\My-Portfolio\\MyPortfolio.csproj",
+        "projectPath": "c:\\WX\\Projects\\My-Portfolio\\MyPortfolio.csproj",
         "packagesPath": "C:\\Users\\Arjun.Sharma\\.nuget\\packages\\",
-        "outputPath": "C:\\WX\\Projects\\My-Portfolio\\obj\\",
+        "outputPath": "c:\\WX\\Projects\\My-Portfolio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
